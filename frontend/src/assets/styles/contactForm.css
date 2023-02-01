@@ -1,0 +1,17 @@
+.contact{
+    background-color: whitesmoke;
+}
+.formulaire{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit {
+    border: 1px solid teal;
+    color: teal;
+}
+
+.form-item{
+    margin:1rem;
+}
