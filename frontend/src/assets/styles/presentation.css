@@ -1,0 +1,13 @@
+.presentation{
+    background-color: whitesmoke;
+}
+
+h1, .about, h2, .skills{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2{
+    color:teal;
+}
