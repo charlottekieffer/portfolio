@@ -21,7 +21,7 @@ button {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: inherit;
+    background-color: white;
     z-index: 100;
     padding: 0;
   }
