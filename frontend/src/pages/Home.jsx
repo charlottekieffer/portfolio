@@ -1,6 +1,7 @@
 import Projects from "../components/Projects";
 import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <Presentation />
         <Projects />
+        <ContactForm />
       </main>
     </>
   );
