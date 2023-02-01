@@ -55,5 +55,4 @@ CREATE TABLE project
   ) VALUES 
   (1, "Book of the Wilders", "Création d'un annuaire pour présenter les personnes de la promo 2022/2023 de notre formation de développeur web et mobile."),
   (2, "Find Fuel", "Création d'un site permettant de recenser les stations-service sous forme de liste ou de carte, avec les différents carburants disponibles ainsi que leur prix."),
-  (3, "Origins Digital", "Plateforme de streaming de vidéos sportives avec la possibilité de s'enregistrer pour avoir accès à toutes les vidéos de la plateforme.
-  Création d'un back-office pour que les administrateurs du site puissent gérer les vidéos et les utilisateurs.")
+  (3, "Origins Digital", "Plateforme de streaming de vidéos sportives avec la possibilité de s'enregistrer pour avoir accès à toutes les vidéos de la plateforme. Création d'un back-office pour que les administrateurs du site puissent gérer les vidéos et les utilisateurs.")
