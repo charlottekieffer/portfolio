@@ -5,10 +5,12 @@ export default function Presentation() {
     <div className="presentation">
       <h1>Bonjour! Je m'appelle Charlotte</h1>
       <p className="about">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Après avoir travaillé 5 ans en tant qu'analyste fraude pour leboncoin,
+        je me réoriente professionnellement pour retourner à mes premières
+        amours: créer des sites web! Très bonne communicatrice, curieuse et
+        passionnée, je cherche un poste de développeuse web pour une
+        organisation qui a du sens et qui apporte une contribution positive à la
+        société.
       </p>
       <h2>Mes compétences</h2>
       <p className="skills">CSS HTML REACT EXPRESS </p>
