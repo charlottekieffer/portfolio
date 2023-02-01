@@ -1,3 +1,4 @@
+import Projects from "../components/Projects";
 import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
 
@@ -9,6 +10,7 @@ export default function Home() {
       </header>
       <main>
         <Presentation />
+        <Projects />
       </main>
     </>
   );

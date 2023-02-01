@@ -1,6 +1,6 @@
 import "../assets/styles/presentation.css";
 
-export default function VideosByCategory() {
+export default function Presentation() {
   return (
     <div className="presentation">
       <h1>Bonjour! Je m'appelle Charlotte</h1>
