@@ -5,10 +5,11 @@ export default function Presentation() {
     <div className="presentation">
       <h1>Bonjour! Je m'appelle Charlotte</h1>
       <p className="about">
-        Après avoir travaillé 5 ans en tant qu'analyste fraude pour leboncoin,
-        je me réoriente professionnellement pour retourner à mes premières
-        amours: créer des sites web! Très bonne communicatrice, curieuse et
-        passionnée, je cherche un poste de développeuse web pour une
+        Je suis développeuse web fullstack.
+        <br /> Après avoir travaillé 5 ans en tant qu'analyste fraude pour
+        leboncoin, je me réoriente professionnellement pour retourner à mes
+        premières amours: créer des sites web! Très bonne communicatrice,
+        curieuse et passionnée, je cherche un poste de développeuse web pour une
         organisation qui a du sens et qui apporte une contribution positive à la
         société.
       </p>
