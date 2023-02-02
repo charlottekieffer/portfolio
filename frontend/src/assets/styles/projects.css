@@ -1,4 +1,4 @@
-.project-items{
+.projects{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ figcaption{
 }
 
 @media screen and (min-width: 992px) {
-    .project-items{
+    .projects{
         display: flex;
         flex-direction: row;
     } 
