@@ -4,6 +4,9 @@ import { CgProfile } from "react-icons/cg";
 import "../assets/styles/navbar.css";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import logo from "../assets/logo-perso.png";
+import Presentation from "./Presentation";
+import Projects from "./Projects";
+import ContactForm from "./ContactForm";
 
 const breakpoint = 992;
 
@@ -65,9 +68,15 @@ export default function NavBar() {
       </Link>
       {(toggleMenu || width > breakpoint) && (
         <ul className="list">
-          <li className="items">Présentation</li>
-          <li className="items">Projets</li>
-          <li className="items">Contact</li>
+          <Link to="/" component={Presentation}>
+            <li className="items">Présentation</li>
+          </Link>
+          <Link to="/" component={Projects}>
+            <li className="items">Projets</li>
+          </Link>
+          <Link to="/" component={ContactForm}>
+            <li className="items">Contact</li>
+          </Link>
         </ul>
       )}
       <div className="button-right">
