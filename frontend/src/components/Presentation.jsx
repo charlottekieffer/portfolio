@@ -1,11 +1,14 @@
+import { useContext } from "react";
 import "../assets/styles/presentation.css";
+import SkillContext from "../assets/contexts/SkillContext";
 
 export default function Presentation() {
+  const { skills } = useContext(SkillContext);
   return (
     <div className="presentation">
       <h1>Bonjour! Je m'appelle Charlotte</h1>
       <p className="about">
-        Je suis développeuse web fullstack.
+        Je suis développeuse web.
         <br /> Après avoir travaillé 5 ans en tant qu'analyste fraude pour
         leboncoin, je me réoriente professionnellement pour retourner à mes
         premières amours: créer des sites web! Très bonne communicatrice,
@@ -14,7 +17,11 @@ export default function Presentation() {
         société.
       </p>
       <h2>Mes compétences</h2>
-      <p className="skills">CSS HTML REACT EXPRESS </p>
+      {skills.map((skill) => (
+        <p className="skills" key={skill.id}>
+          {skill.name}
+        </p>
+      ))}
     </div>
   );
 }

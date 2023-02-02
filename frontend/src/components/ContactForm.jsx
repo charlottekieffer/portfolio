@@ -20,7 +20,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>Me contacter</h2>
       <form className="formulaire" onSubmit={handleSubmit}>
         <label className="form-item">
