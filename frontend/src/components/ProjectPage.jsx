@@ -1,12 +1,18 @@
+import { useContext } from "react";
 import "../assets/styles/projectpage.css";
+import { useParams } from "react-router-dom";
 import itemImage from "../assets/itemImg.jpg";
 import Navbar from "./Navbar";
+import ProjectContext from "../assets/contexts/ProjectContext";
 
 export default function Projects() {
+  const { projects } = useContext(ProjectContext);
+  const { id } = useParams();
+  const item = projects.find((element) => element.id === parseInt(id, 10));
   return (
     <div className="project">
       <Navbar />
-      <h2>Book of the Wilders</h2>
+      <h2>{item.title}</h2>
       <div className="project-card">
         <figure>
           <img
@@ -14,10 +20,7 @@ export default function Projects() {
             src={itemImage}
             alt="Person typing on a computer"
           />
-          <figcaption>
-            Création d'un annuaire pour présenter les personnes de la promo
-            2022/2023 de notre formation de développeur web et mobile.
-          </figcaption>
+          <figcaption>{item.description}</figcaption>
         </figure>
       </div>
     </div>
