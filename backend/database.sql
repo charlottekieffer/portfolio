@@ -44,15 +44,17 @@ CREATE TABLE project
 (
 	id        INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	title      VARCHAR(100) NOT NULL,
-	description      VARCHAR(900) NOT NULL
+	description      VARCHAR(900) NOT NULL,
+  link VARCHAR(255) NOT NULL
 ) engine = InnoDB
   default charset = latin1;
 
   INSERT INTO project (
   id,
   title,
-  description
+  description,
+  link
   ) VALUES 
-  (1, "Book of the Wilders", "Création d'un annuaire pour présenter les personnes de la promo 2022/2023 de notre formation de développeur web et mobile."),
-  (2, "Find Fuel", "Création d'un site permettant de recenser les stations-service sous forme de liste ou de carte, avec les différents carburants disponibles ainsi que leur prix."),
-  (3, "Origins Digital", "Plateforme de streaming de vidéos sportives avec la possibilité de s'enregistrer pour avoir accès à toutes les vidéos de la plateforme. Création d'un back-office pour que les administrateurs du site puissent gérer les vidéos et les utilisateurs.")
+  (1, "Book of the Wilders", "Création d'un annuaire pour présenter les personnes de la promo 2022/2023 de notre formation de développeur web et mobile.", "https://github.com/charlottekieffer/book-of-wilders?organization=charlottekieffer&organization=charlottekieffer"),
+  (2, "Find Fuel", "Création d'un site permettant de recenser les stations-service sous forme de liste ou de carte, avec les différents carburants disponibles ainsi que leur prix.", "https://github.com/charlottekieffer/2022-09-JS-Reims-project-2-find-fuel"),
+  (3, "Origins Digital", "Plateforme de streaming de vidéos sportives avec la possibilité de s'enregistrer pour avoir accès à toutes les vidéos de la plateforme. Création d'un back-office pour que les administrateurs du site puissent gérer les vidéos et les utilisateurs.", "https://github.com/WildCodeSchool/2022-09-JS-Reims-project-3-origins-digital")

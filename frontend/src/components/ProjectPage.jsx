@@ -22,6 +22,7 @@ export default function Projects() {
           />
           <figcaption>{item.description}</figcaption>
         </figure>
+        <a href={item.link}>Lien vers github</a>
       </div>
     </div>
   );
